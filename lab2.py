@@ -24,7 +24,7 @@ def maximo(lista):
     
     max_val = lista[0]
     for num in lista:
-        if num > lista:
+        if num > max_val:
             max_val = num
         
     return max_val
@@ -37,6 +37,3 @@ def contar_vocales(cadena):
             contador += 1
     
     return contador
-
-def suma_pares(lista):
-    return sum(num for num in lista if num % 2 == 0)
