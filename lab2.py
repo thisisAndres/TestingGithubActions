@@ -37,6 +37,3 @@ def contar_vocales(cadena):
             contador += 1
     
     return contador
-
-def suma_pares(lista):
-    return sum(num for num in lista if num % 2 == 0)
