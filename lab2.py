@@ -18,17 +18,6 @@ def es_palidromo(cadena: str):
     cadena = cadena.replace(" ", "").lower()
     return cadena == cadena[::-1]
 
-def maximo(lista):
-    if not lista:
-        return None
-    
-    max_val = lista[0]
-    for num in lista:
-        if num > lista:
-            max_val = num
-        
-    return max_val
-
 def contar_vocales(cadena):
     contador = 0
     
